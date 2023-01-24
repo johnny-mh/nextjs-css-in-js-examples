@@ -10,6 +10,11 @@
     },
     "dev": {
       "cache": false
-    }
+    },
+    "export": {
+      "dependsOn": ["build"],
+      "outputs": ["out/**"]
+    },
+    "analyze": {}
   }
 }
