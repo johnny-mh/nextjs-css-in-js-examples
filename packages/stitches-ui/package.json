@@ -1,0 +1,25 @@
+{
+  "name": "stitches-ui",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "dependencies": {
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0"
+  },
+  "devDependencies": {
+    "@stitches/react": "^1.2.8",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "react": "^18.2.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.2",
+    "webpack": "^5.75.0"
+  }
+}

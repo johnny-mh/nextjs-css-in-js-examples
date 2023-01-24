@@ -1,0 +1,29 @@
+{
+  "name": "stitches-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "analyze": "ANALYZE=true next build",
+    "build": "next build",
+    "dev": "next dev",
+    "export": "next export",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "next": "^13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stitches-ui": "workspace:*",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "eslint": "8.32.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*"
+  }
+}
